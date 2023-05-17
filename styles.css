@@ -1,0 +1,44 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-input {
+    width: 97%;
+    background-color: aqua;
+    padding: 10px;
+    text-align: center
+    
+}
+
+.button_1 {
+    border: 2px solid rgb(158, 104, 209);
+    background-color: white;
+    color: black;
+    
+    padding: 10px 20px;
+    font-size: 14px
+}
+
+.bbbb {
+    text-align: center;
+    background-color: white;
+}
+
+.my-text {
+    background-color: aqua;
+    padding: 10px;
+    
+  }
+
+
+.hhhh {
+    
+    
+
+    height: 40px
+}
+
+body {
+    background-color: rgb(33, 33, 33);
+}
