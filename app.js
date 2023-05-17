@@ -52,7 +52,7 @@ function add() {
     } else if (randomSentence.includes(c)) {
       alert("please input again");
     } else {
-      alert("もう一度入力してください");
+      alert("please input again");
     }
     }
   });
