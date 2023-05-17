@@ -9,9 +9,9 @@ function touch() {
     if (randomSentence === c) {
       alert("correct");
     } else if (randomSentence.includes(c)) {
-      alert("もう一度入力してください");
+      alert("please input again");
     } else {
-      alert("もう一度入力してください");
+      alert("please input again");
     }
   }
 
