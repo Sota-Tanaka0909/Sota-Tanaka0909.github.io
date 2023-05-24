@@ -1,44 +1,81 @@
-.input-container {
+/* 全体のスタイル */
+body {
+    background-color: rgb(33, 33, 33);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* ヘッダーのスタイル */
+  .header {
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .header h2 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* 入力コンテナのスタイル */
+  .input-container {
     display: flex;
     flex-direction: column;
-}
-
-.my-input {
-    width: 97%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .my-input {
+    width: 80%;
+    max-width: 800px;
+    height: 50px;
+    font-size: 25px;
     background-color: aqua;
     padding: 10px;
-    text-align: center
-    
-}
-
-.button_1 {
+    text-align: center;
+    border: 5px solid yellowgreen;
+    margin-bottom: 10px;
+  }
+  
+  .button_1 {
     border: 2px solid rgb(158, 104, 209);
     background-color: white;
     color: black;
-    
     padding: 10px 20px;
-    font-size: 14px
-}
-
-.bbbb {
+    font-size: 14px;
+    cursor: pointer;
+    height: 55px;
+    width: 400px;
+    font-size: 23px;
+  }
+  
+  .bbbb {
     text-align: center;
     background-color: white;
-}
-
-.my-text {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .my-text {
     background-color: aqua;
     padding: 10px;
-    
   }
+  
+  .hhhh {
+    border: 2px solid rgb(158, 104, 209);
+    height: 55px;
+    width: 400px;
+    font-size: 23px;
 
-
-.hhhh {
-    
-    
-
-    height: 40px
-}
-
-body {
-    background-color: rgb(33, 33, 33);
-}
+  }
+  
+  
